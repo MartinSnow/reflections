@@ -5,16 +5,17 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 存储区临时存放准备提交的版本，防止误操作进行不必要的提交
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change？
+对每次更改进行diff处理，对比工作区、暂存区和最新版本之间的差别
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+当我想尝试不同的类型时。我可以尝试其他类型，而不会干扰到主要类型
 
 How do the diagrams help you visualize the branch structure?
+图表可以清晰的看出每个分支的路径
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+保存两个分之内所有的更改。更清晰的看出不同分支的更改内容和分支结构
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+自动合并会简化作者的工作；手动合并会更加进行准确的合并操作，确保代码正确
